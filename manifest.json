@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "PDF translator(right click)",
+  "version": "1.0",
+  "description": "Drag the English text in a local PDF and right-click to translate it into Korean",
+  "permissions": [
+    "contextMenus"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
